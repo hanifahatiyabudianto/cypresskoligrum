@@ -1,0 +1,369 @@
+[
+  {
+    "description": "    I want to be able to submit quote in various Colour",
+    "keyword": "Feature",
+    "name": "BDD Atlas Homepage Colour Quote",
+    "line": 1,
+    "id": "bdd-atlas-homepage-colour-quote",
+    "tags": [],
+    "uri": "Homepage.feature",
+    "elements": [
+      {
+        "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-blue-quote",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "I want to be able to submit a Blue Quote",
+        "tags": [
+          {
+            "name": "@TC001",
+            "line": 5
+          },
+          {
+            "name": "@BlueColour",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open BDD Atlas Web",
+            "result": {
+              "status": "passed",
+              "duration": 3323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I type a quote: Hello World",
+            "result": {
+              "status": "passed",
+              "duration": 559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I choose the Blue colour",
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I verify quote submitted \"Blue\" and \"Hello World\"",
+            "result": {
+              "status": "passed",
+              "duration": 425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I verify quote has been deleted: Hello",
+            "result": {
+              "status": "passed",
+              "duration": 354000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-white-quote",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "I want to be able to submit a White Quote",
+        "tags": [
+          {
+            "name": "@TC002",
+            "line": 13
+          },
+          {
+            "name": "@AllColour",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I open BDD Atlas Web",
+            "result": {
+              "status": "passed",
+              "duration": 663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I type a quote: Hello World",
+            "result": {
+              "status": "passed",
+              "duration": 401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I choose the White colour",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I verify quote submitted \"White\" and \"Hello World\"",
+            "result": {
+              "status": "passed",
+              "duration": 247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I verify quote has been deleted: Hello",
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-yellow-quote",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "I want to be able to submit a Yellow Quote",
+        "tags": [
+          {
+            "name": "@TC002",
+            "line": 13
+          },
+          {
+            "name": "@AllColour",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I open BDD Atlas Web",
+            "result": {
+              "status": "passed",
+              "duration": 796000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I type a quote: Hello World",
+            "result": {
+              "status": "passed",
+              "duration": 414000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I choose the Yellow colour",
+            "result": {
+              "status": "passed",
+              "duration": 201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I verify quote submitted \"Yellow\" and \"Hello World\"",
+            "result": {
+              "status": "passed",
+              "duration": 327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I verify quote has been deleted: Hello",
+            "result": {
+              "status": "passed",
+              "duration": 178000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-cyan-quote",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "I want to be able to submit a Cyan Quote",
+        "tags": [
+          {
+            "name": "@TC002",
+            "line": 13
+          },
+          {
+            "name": "@AllColour",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I open BDD Atlas Web",
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I type a quote: Hello World",
+            "result": {
+              "status": "passed",
+              "duration": 434000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I choose the Cyan colour",
+            "result": {
+              "status": "passed",
+              "duration": 179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I verify quote submitted \"Cyan\" and \"Hello World\"",
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I verify quote has been deleted: Hello",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-blue-quote",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "I want to be able to submit a Blue Quote",
+        "tags": [
+          {
+            "name": "@TC002",
+            "line": 13
+          },
+          {
+            "name": "@AllColour",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I open BDD Atlas Web",
+            "result": {
+              "status": "passed",
+              "duration": 608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I type a quote: Hello World",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I choose the Blue colour",
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I verify quote submitted \"Blue\" and \"Hello World\"",
+            "result": {
+              "status": "passed",
+              "duration": 546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I verify quote has been deleted: Hello",
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "93"
+      },
+      "device": "Local test machine",
+      "platform": {
+        "name": "osx",
+        "version": "Big Sur"
+      }
+    }
+  }
+]

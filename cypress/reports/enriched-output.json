@@ -1,0 +1,506 @@
+{
+  "app": 0,
+  "customMetadata": false,
+  "customData": null,
+  "style": "style.css",
+  "useCDN": false,
+  "hideMetadata": false,
+  "displayReportTime": false,
+  "displayDuration": true,
+  "browser": 1,
+  "name": "",
+  "version": "version",
+  "time": "2021-09-05T04:59:48.148Z",
+  "features": [
+    {
+      "description": "    I want to be able to submit quote in various Colour",
+      "keyword": "Feature",
+      "name": "BDD Atlas Homepage Colour Quote",
+      "line": 1,
+      "id": "4fc00b35-f453-4931-9cb3-6a3a303b23cb-bdd-atlas-homepage-colour-quote",
+      "tags": [],
+      "uri": "Homepage.feature",
+      "elements": [
+        {
+          "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-blue-quote",
+          "keyword": "Scenario",
+          "line": 6,
+          "name": "I want to be able to submit a Blue Quote",
+          "tags": [
+            {
+              "name": "@TC001",
+              "line": 5
+            },
+            {
+              "name": "@BlueColour",
+              "line": 5
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 7,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 3323000000
+              },
+              "time": "00:00:03.323"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 8,
+              "name": "I type a quote: Hello World",
+              "result": {
+                "status": "passed",
+                "duration": 559000000
+              },
+              "time": "00:00:00.559"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 9,
+              "name": "I choose the Blue colour",
+              "result": {
+                "status": "passed",
+                "duration": 253000000
+              },
+              "time": "00:00:00.253"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "I verify quote submitted \"Blue\" and \"Hello World\"",
+              "result": {
+                "status": "passed",
+                "duration": 425000000
+              },
+              "time": "00:00:00.425"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 11,
+              "name": "I verify quote has been deleted: Hello",
+              "result": {
+                "status": "passed",
+                "duration": 354000000
+              },
+              "time": "00:00:00.354"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 4914000000,
+          "time": "00:00:04.914"
+        },
+        {
+          "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-white-quote",
+          "keyword": "Scenario",
+          "line": 22,
+          "name": "I want to be able to submit a White Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            },
+            {
+              "name": "@AllColour",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 663000000
+              },
+              "time": "00:00:00.663"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote: Hello World",
+              "result": {
+                "status": "passed",
+                "duration": 401000000
+              },
+              "time": "00:00:00.401"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the White colour",
+              "result": {
+                "status": "passed",
+                "duration": 190000000
+              },
+              "time": "00:00:00.190"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"White\" and \"Hello World\"",
+              "result": {
+                "status": "passed",
+                "duration": 247000000
+              },
+              "time": "00:00:00.247"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted: Hello",
+              "result": {
+                "status": "passed",
+                "duration": 184000000
+              },
+              "time": "00:00:00.184"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 1685000000,
+          "time": "00:00:01.685"
+        },
+        {
+          "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-yellow-quote",
+          "keyword": "Scenario",
+          "line": 23,
+          "name": "I want to be able to submit a Yellow Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            },
+            {
+              "name": "@AllColour",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 796000000
+              },
+              "time": "00:00:00.796"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote: Hello World",
+              "result": {
+                "status": "passed",
+                "duration": 414000000
+              },
+              "time": "00:00:00.414"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the Yellow colour",
+              "result": {
+                "status": "passed",
+                "duration": 201000000
+              },
+              "time": "00:00:00.201"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"Yellow\" and \"Hello World\"",
+              "result": {
+                "status": "passed",
+                "duration": 327000000
+              },
+              "time": "00:00:00.327"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted: Hello",
+              "result": {
+                "status": "passed",
+                "duration": 178000000
+              },
+              "time": "00:00:00.178"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 1916000000,
+          "time": "00:00:01.916"
+        },
+        {
+          "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-cyan-quote",
+          "keyword": "Scenario",
+          "line": 24,
+          "name": "I want to be able to submit a Cyan Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            },
+            {
+              "name": "@AllColour",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 475000000
+              },
+              "time": "00:00:00.475"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote: Hello World",
+              "result": {
+                "status": "passed",
+                "duration": 434000000
+              },
+              "time": "00:00:00.434"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the Cyan colour",
+              "result": {
+                "status": "passed",
+                "duration": 179000000
+              },
+              "time": "00:00:00.179"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"Cyan\" and \"Hello World\"",
+              "result": {
+                "status": "passed",
+                "duration": 225000000
+              },
+              "time": "00:00:00.225"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted: Hello",
+              "result": {
+                "status": "passed",
+                "duration": 189000000
+              },
+              "time": "00:00:00.189"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 1502000000,
+          "time": "00:00:01.502"
+        },
+        {
+          "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-blue-quote",
+          "keyword": "Scenario",
+          "line": 25,
+          "name": "I want to be able to submit a Blue Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            },
+            {
+              "name": "@AllColour",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 608000000
+              },
+              "time": "00:00:00.608"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote: Hello World",
+              "result": {
+                "status": "passed",
+                "duration": 471000000
+              },
+              "time": "00:00:00.471"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the Blue colour",
+              "result": {
+                "status": "passed",
+                "duration": 195000000
+              },
+              "time": "00:00:00.195"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"Blue\" and \"Hello World\"",
+              "result": {
+                "status": "passed",
+                "duration": 546000000
+              },
+              "time": "00:00:00.546"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted: Hello",
+              "result": {
+                "status": "passed",
+                "duration": 283000000
+              },
+              "time": "00:00:00.283"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 2103000000,
+          "time": "00:00:02.103"
+        }
+      ],
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "93"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "osx",
+          "version": "Big Sur"
+        }
+      },
+      "scenarios": {
+        "passed": 5,
+        "failed": 0,
+        "notDefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 5
+      },
+      "duration": 12120000000,
+      "time": "00:00:12.120",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "isNotdefined": false,
+      "isPending": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    }
+  ],
+  "featureCount": {
+    "ambiguous": 0,
+    "failed": 0,
+    "passed": 1,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "total": 1,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notdefinedPercentage": "0.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00",
+    "passedPercentage": "100.00"
+  },
+  "reportName": "BDD Atlas",
+  "scenarios": {
+    "failed": 0,
+    "ambiguous": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "passed": 5,
+    "total": 5,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notdefinedPercentage": "0.00",
+    "passedPercentage": "100.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00"
+  },
+  "totalTime": 0
+}

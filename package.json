@@ -1,0 +1,28 @@
+{
+  "name": "cypress-bdd-koligrum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "./node_modules/.bin/cypress run --spec 'cypress/integration/**/*.feature' --browser chrome",
+      "cypress:open": "cypress open",
+      "cypress-tags": "./node_modules/.bin/cypress-tags",
+      "reporter": "node cypress/support/reporter"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate" : true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "fileprefix": "",
+      "fileSuffix":".cucumber"
+    }
+  }
+}
